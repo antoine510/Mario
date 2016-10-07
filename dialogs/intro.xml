@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<Dialog texID="1" drawingTime="2000">
+	<Text>Bonjour et bienvenue dans le nouveau projet</Text>
+</Dialog>

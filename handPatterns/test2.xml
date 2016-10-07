@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<HandPatern>
+	<HandPaternSections textureID="10">
+		<Section id="0" x="20" y="100" width="80" height="2"/>
+		<Section id="1" x="100" y="70" width="2" height="30"/>
+	</HandPaternSections>
+	<HandPaternEvents>
+		<EnableEvents handTextureID="11" handOffsetX="5" handOffsetY="95">
+			<Event sectionID="0" duration="1000" direct="true"/>
+			<Event sectionID="-1" duration="3000"/>
+			<Event sectionID="1" duration="500" direct="false"/>
+		</EnableEvents>
+		<DisableEvents handTextureID="12" handOffsetX="205" handOffsetY="95">
+			<Event sectionID="-1" duration="30000"/>
+		</DisableEvents>
+	</HandPaternEvents>
+</HandPatern>

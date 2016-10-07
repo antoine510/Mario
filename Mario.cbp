@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mario" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="AsmXML/obj/asm-xml.obj;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SDL/include" />
+			<Add directory="AsmXML/include" />
+			<Add directory="FMOD/inc" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="libfmodex" />
+			<Add library="AsmXML\obj\asm-xml.obj" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_image" />
+			<Add directory="SDL/lib" />
+			<Add directory="FMOD/lib" />
+			<Add directory="AsmXML/obj" />
+		</Linker>
+		<Unit filename="XMLWriter.cpp" />
+		<Unit filename="XMLWriter.h" />
+		<Unit filename="common.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="editor.cpp" />
+		<Unit filename="editor.h" />
+		<Unit filename="entities/ECS.cpp" />
+		<Unit filename="entities/ECS.h" />
+		<Unit filename="entities/block.cpp" />
+		<Unit filename="entities/block.h" />
+		<Unit filename="entities/enemy.cpp" />
+		<Unit filename="entities/enemy.h" />
+		<Unit filename="entities/entitiesHandler.cpp" />
+		<Unit filename="entities/entitiesHandler.h" />
+		<Unit filename="entities/entitiesHeader.h" />
+		<Unit filename="entities/entityTypes.cpp" />
+		<Unit filename="entities/entityTypes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="entities/handPatern/hand.cpp" />
+		<Unit filename="entities/handPatern/hand.h" />
+		<Unit filename="entities/handPatern/handPattern.cpp" />
+		<Unit filename="entities/handPatern/handPattern.h" />
+		<Unit filename="entities/item.cpp" />
+		<Unit filename="entities/item.h" />
+		<Unit filename="entities/object.cpp" />
+		<Unit filename="entities/object.h" />
+		<Unit filename="entities/player.cpp" />
+		<Unit filename="entities/player.h" />
+		<Unit filename="entities/projectile.cpp" />
+		<Unit filename="entities/projectile.h" />
+		<Unit filename="entities/trigger.cpp" />
+		<Unit filename="entities/trigger.h" />
+		<Unit filename="filetool.cpp" />
+		<Unit filename="filetool.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="gfxInterface.cpp" />
+		<Unit filename="gfxInterface.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graphics/animation.cpp" />
+		<Unit filename="graphics/animation.h" />
+		<Unit filename="graphics/background.cpp" />
+		<Unit filename="graphics/background.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graphics/color.cpp" />
+		<Unit filename="graphics/color.h" />
+		<Unit filename="graphics/gfxParameters.cpp" />
+		<Unit filename="graphics/gfxParameters.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graphics/graphics.cpp" />
+		<Unit filename="graphics/graphics.h" />
+		<Unit filename="graphics/renderDatas.h" />
+		<Unit filename="graphics/renderers/renderCoin.cpp" />
+		<Unit filename="graphics/renderers/renderCoin.h" />
+		<Unit filename="graphics/renderers/renderDialog.cpp" />
+		<Unit filename="graphics/renderers/renderDialog.h" />
+		<Unit filename="graphics/renderers/renderEditor.cpp" />
+		<Unit filename="graphics/renderers/renderEditor.h" />
+		<Unit filename="graphics/renderers/renderEntity.cpp" />
+		<Unit filename="graphics/renderers/renderEntity.h" />
+		<Unit filename="graphics/surface.cpp" />
+		<Unit filename="graphics/surface.h" />
+		<Unit filename="graphics/texture.cpp" />
+		<Unit filename="graphics/texture.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graphics/textureSet.cpp" />
+		<Unit filename="graphics/textureSet.h" />
+		<Unit filename="graphics/viewport.cpp" />
+		<Unit filename="graphics/viewport.h" />
+		<Unit filename="graphics/writing.cpp" />
+		<Unit filename="graphics/writing.h" />
+		<Unit filename="input.cpp" />
+		<Unit filename="input.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="level.cpp" />
+		<Unit filename="level.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mario.cpp" />
+		<Unit filename="mario.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="math.cpp" />
+		<Unit filename="math.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="path.cpp" />
+		<Unit filename="path.h" />
+		<Unit filename="physics/collisionHandler.cpp" />
+		<Unit filename="physics/collisionHandler.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="physics/phyStack.cpp" />
+		<Unit filename="physics/phyStack.h" />
+		<Unit filename="physics/physics.cpp" />
+		<Unit filename="physics/physics.h" />
+		<Unit filename="physics/sweepAndPrune.cpp" />
+		<Unit filename="physics/sweepAndPrune.h" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="rectangle.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ui/button.cpp" />
+		<Unit filename="ui/button.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ui/dialog.cpp" />
+		<Unit filename="ui/dialog.h" />
+		<Unit filename="vector.cpp" />
+		<Unit filename="vector.h" />
+		<Unit filename="worldEntities.cpp" />
+		<Unit filename="worldEntities.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="1" line="1" />
+				<doxyfile_project project_number="1" />
+				<doxyfile_build extract_all="1" />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot class_diagrams="1" />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

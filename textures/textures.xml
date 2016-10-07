@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+<textures>
+	<texSets prefix="textures/objects/">
+		<texSet name="Mario" id="0" gfxLayer="1" defaultState="2">
+			<state id="0" path="littleMarioR.bmp"/>
+			<state id="1" path="littleMarioL.bmp"/>
+			<state id="2" path="bigMarioR.bmp"/>
+			<state id="3" path="bigMarioL.bmp"/>
+			<state id="4" path="fireMarioR.bmp"/>
+			<state id="5" path="fireMarioL.bmp"/>
+			
+			<state id="6" path="deadMario.bmp"/>
+			
+			<state id="7" path="bigMarioLeaningR.bmp"/>
+			<state id="8" path="bigMarioLeaningL.bmp"/>
+			<state id="9" path="fireMarioLeaningR.bmp"/>
+			<state id="10" path="fireMarioLeaningL.bmp"/>
+			
+			<state id="11" path="littleMarioJumpR.bmp"/>
+			<state id="12" path="littleMarioJumpL.bmp"/>
+			<state id="13" path="bigMarioJumpR.bmp"/>
+			<state id="14" path="bigMarioJumpL.bmp"/>
+			<state id="15" path="fireMarioJumpR.bmp"/>
+			<state id="16" path="fireMarioJumpL.bmp"/>
+			
+			<state id="17" path="blink.bmp"/>
+			
+			<animation id="0" path="littleMarioWalkR.bmp" frameWidth="13" frameCount="3" delay="100" loop="true"/>
+			<animation id="1" path="littleMarioWalkL.bmp" frameWidth="13" frameCount="3" delay="100" loop="true"/>
+			<animation id="2" path="littleMarioStartJumpR.bmp" frameWidth="13" frameCount="1" delay="300" loop="false" fallback="littleMarioJumpR.bmp"/>
+			<animation id="3" path="littleMarioStartJumpL.bmp" frameWidth="13" frameCount="1" delay="300" loop="false" fallback="littleMarioJumpL.bmp"/>
+			<animation id="4" path="bigMarioWalkR.bmp" frameWidth="16" frameCount="3" delay="100" loop="true"/>
+			<animation id="5" path="bigMarioWalkL.bmp" frameWidth="16" frameCount="3" delay="100" loop="true"/>
+			<animation id="6" path="bigMarioStartJumpR.bmp" frameWidth="16" frameCount="1" delay="300" loop="false" fallback="bigMarioJumpR.bmp"/>
+			<animation id="7" path="bigMarioStartJumpL.bmp" frameWidth="16" frameCount="1" delay="300" loop="false" fallback="bigMarioJumpL.bmp"/>
+			<animation id="8" path="fireMarioWalkR.bmp" frameWidth="16" frameCount="3" delay="100" loop="true"/>
+			<animation id="9" path="fireMarioWalkL.bmp" frameWidth="16" frameCount="3" delay="100" loop="true"/>
+			<animation id="10" path="fireMarioStartJumpR.bmp" frameWidth="16" frameCount="1" delay="300" loop="false" fallback="fireMarioJumpR.bmp"/>
+			<animation id="11" path="fireMarioStartJumpL.bmp" frameWidth="16" frameCount="1" delay="300" loop="false" fallback="fireMarioJumpL.bmp"/>
+		</texSet>
+	  
+		<texSet name="Goomba" id="1" gfxLayer="1" defaultState="0">
+			<state id="0" path="goombaRfoot.bmp"/>
+			<state id="1" path="goombaLfoot.bmp"/>
+			<state id="2" path="goombaScratched.bmp"/>
+		</texSet>
+	  
+		<texSet name="Koopa" id="2" gfxLayer="1" defaultState="100">
+			<state id="0" path="koopaShell.bmp"/>
+			<animation id="0" path="koopaWalkR.bmp" frameWidth="16" frameCount="2" delay="400" loop="true"/>
+			<animation id="1" path="koopaWalkL.bmp" frameWidth="16" frameCount="2" delay="400" loop="true"/>
+		</texSet>
+	  
+		<compositeSet name="Ground" id="3" gfxLayer="2">
+			<state id="0" path="ground.bmp"/>
+			<state id="1" path="ground_up.bmp"/>
+			<state id="2" path="ground_upperright.bmp"/>
+			<state id="3" path="ground_right.bmp"/>
+			<state id="4" path="ground_lowerright.bmp"/>
+			<state id="5" path="ground_down.bmp"/>
+			<state id="6" path="ground_lowerleft.bmp"/>
+			<state id="7" path="ground_left.bmp"/>
+			<state id="8" path="ground_upperleft.bmp"/>
+		</compositeSet>
+		
+		<texSet name="Decor_Plants" id="4" gfxLayer="0" defaultState="0">
+			<state id="0" path="plants.png"/>
+		</texSet>
+	  
+		<texSet name="Mushroom" id="5" gfxLayer="1" defaultState="0">
+			<state id="0" path="mushroom.bmp"/>
+		</texSet>
+	  
+		<texSet name="Brick" id="6" gfxLayer="1" defaultState="0">
+			<state id="0" path="brick.bmp"/>
+		</texSet>
+	  
+		<texSet name="Switch" id="7" gfxLayer="1" defaultState="0">
+			<state id="0" path="switch.bmp"/>
+		</texSet>
+		
+		<texSet name="Decor_Cloud" id="8" gfxLayer="1" defaultState="0">
+			<state id="0" path="cloud.bmp"/>
+		</texSet>
+		
+		<texSet name="Fireball" id="9" gfxLayer="1" defaultState="100">
+			<animation id="0" path="fireball.bmp" frameWidth="8" frameCount="4" delay="200" loop="true"/>
+		</texSet>
+		
+		<texSet name="Crayon_Lines" id="10" gfxLayer="3" defaultState="0">
+			<state id="0" path="crayon.bmp"/>
+		</texSet>
+		
+		<texSet name="Writing_Hand" id="11" gfxLayer="4" defaultState="0">
+			<state id="0" path="writingHand.bmp"/>
+		</texSet>
+		
+		<texSet name="Erasing_Hand" id="12" gfxLayer="4" defaultState="0">
+			<state id="0" path="erasingHand.bmp"/>
+		</texSet>
+		
+		<texSet name="Trigger" id="13" gfxLayer="0" defaultState="0">
+			<state id="0" path="trigger.bmp"/>
+		</texSet>
+		
+		<texSet name="Decor_Plants_Layer1" id="14" gfxLayer="0" defaultState="0">
+			<state id="0" path="plants_layer1.png"/>
+		</texSet>
+		
+		<texSet name="Decor_Plants_Layer2" id="15" gfxLayer="0" defaultState="0">
+			<state id="0" path="plants_layer2.png"/>
+		</texSet>
+	</texSets>
+  
+	<buttons prefix="textures/buttons/">
+		<texSet name="Start" id="0" gfxLayer="0" defaultState="0">
+			<state id="0" path="start.bmp"/>
+			<state id="1" path="start_select.bmp"/>
+		</texSet>
+		
+		<texSet name="Quit" id="1" gfxLayer="0" defaultState="0">
+			<state id="0" path="quit.bmp"/>
+			<state id="1" path="quit_select.bmp"/>
+		</texSet>
+		
+		<texSet name="Level_First" id="2" gfxLayer="0" defaultState="0">
+			<state id="0" path="first.bmp"/>
+			<state id="1" path="first_select.bmp"/>
+		</texSet>
+		
+		<texSet name="Level_Second" id="3" gfxLayer="0" defaultState="0">
+			<state id="0" path="second.bmp"/>
+			<state id="1" path="second_select.bmp"/>
+		</texSet>
+	</buttons>
+	
+	<backgrounds prefix="textures/backgrounds/">
+		<texSet name="Menu Background" id="0" gfxLayer="0" defaultState="0">
+			<state id="0" path="menu.bmp"/>
+		</texSet>
+		
+		<texSet name="Level Background" id="1" gfxLayer="0" defaultState="0">
+			<state id="0" path="level.bmp"/>
+		</texSet>
+	</backgrounds>
+
+	<other prefix="textures/other/">
+		<texSet name="Coin" id="0" gfxLayer="0" defaultState="0">
+			<state id="0" path="coin.bmp"/>
+		</texSet>
+		
+		<texSet name="DialogBox" id="1" gfxLayer="0" defaultState="0">
+			<state id="0" path="dialogBox.png"/>
+		</texSet>
+	</other>
+	
+</textures>
