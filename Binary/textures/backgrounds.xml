@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<Backgrounds>
+	<Background name="Menu" texID="0" spanWidth="1260" spanSpeed="2"/>
+	<Background name="Level" texID="1" spanWidth="0" spanSpeed="0"/>
+</Backgrounds>

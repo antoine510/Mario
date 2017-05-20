@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-
-<Level name="Second">
-	<Player X="50" Y="400" name="Mario" keySet="0"/>
-	<DialogTrigger X="50" Y="400" W="20" H="20" dialogFile="intro"/>
-	<HandPaternTrigger X="50" Y="400" W="20" H="20" handPaternFile="test"/>
-</Level>

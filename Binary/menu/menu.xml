@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<Menu>
+	<Mode name="Main Menu" id="0">
+		<Button id="0" X="150" Y="200" texID="0"/>
+		<Button id="1" X="150" Y="350" texID="1"/>
+	</Mode>
+	
+	<Mode name="Level Selection" id="1">
+		<Button id="0" X="150" Y="200" texID="2" levelName="first"/>
+		<Button id="1" X="150" Y="350" texID="3" levelName="second"/>
+	</Mode>
+</Menu>

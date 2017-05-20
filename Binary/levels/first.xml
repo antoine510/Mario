@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<Level name="First">
+	<Player X="200" Y="300" name="Mario" keySet="0"/>
+	<Player X="500" Y="300" name="Mario2" keySet="1"/>
+	<Goomba X="150" Y="200"/>
+	<Koopa X="180" Y="200"/>
+	<Mushroom X="210" Y="200" itemType="1"/>
+	<Brick X="250" Y="100"/>
+	<Decor X="150" Y="50" W="0" H="0" texID="15" layer="3"/>
+	<Decor X="270" Y="50" W="0" H="0" texID="14" layer="2"/>
+	<Decor X="100" Y="50" W="0" H="0" texID="4" layer="0"/>
+	<Ground X="20" Y="10" W="800" H="44" texID="3"/>
+	<Ground X="20" Y="60" W="21" H="40" texID="3"/>
+	<Ground X="500" Y="80" W="20" H="40" texID="3"/>
+	<Ground X="600" Y="60" W="20" H="40" texID="3"/>
+	<EndTrigger X="750" Y="60" W="5" H="40"/>
+</Level>
